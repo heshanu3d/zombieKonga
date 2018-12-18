@@ -43,6 +43,7 @@
 		45278D0221C92114007EE95B /* zombie2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE821C92113007EE95B /* zombie2.png */; };
 		45278D0321C92114007EE95B /* zombie3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE921C92113007EE95B /* zombie3.png */; };
 		45278D0421C92114007EE95B /* zombie4.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CEA21C92113007EE95B /* zombie4.png */; };
+		45278D0621C93A65007EE95B /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45278D0521C93A65007EE95B /* MyUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		45278CE821C92113007EE95B /* zombie2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie2.png; sourceTree = "<group>"; };
 		45278CE921C92113007EE95B /* zombie3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie3.png; sourceTree = "<group>"; };
 		45278CEA21C92113007EE95B /* zombie4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie4.png; sourceTree = "<group>"; };
+		45278D0521C93A65007EE95B /* MyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		45278C9221C91F79007EE95B /* zombieKonga */ = {
 			isa = PBXGroup;
 			children = (
+				45278D0521C93A65007EE95B /* MyUtils.swift */,
 				45278C9321C91F79007EE95B /* AppDelegate.swift */,
 				45278C9521C91F79007EE95B /* GameScene.sks */,
 				45278C9721C91F79007EE95B /* Actions.sks */,
@@ -393,6 +396,7 @@
 				45278C9A21C91F79007EE95B /* GameScene.swift in Sources */,
 				45278C9C21C91F79007EE95B /* GameViewController.swift in Sources */,
 				45278C9421C91F79007EE95B /* AppDelegate.swift in Sources */,
+				45278D0621C93A65007EE95B /* MyUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
