@@ -12,6 +12,7 @@
 		4517492521C9FF7A002FC42A /* hitCatLady.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517492021C9FF79002FC42A /* hitCatLady.wav */; };
 		4517492621C9FF7A002FC42A /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517492121C9FF79002FC42A /* lose.wav */; };
 		4517492721C9FF7A002FC42A /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517492221C9FF79002FC42A /* win.wav */; };
+		452505FF21CA808E00EE96AA /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452505FE21CA808E00EE96AA /* GameOverScene.swift */; };
 		45278C9421C91F79007EE95B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45278C9321C91F79007EE95B /* AppDelegate.swift */; };
 		45278C9621C91F79007EE95B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45278C9521C91F79007EE95B /* GameScene.sks */; };
 		45278C9821C91F79007EE95B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45278C9721C91F79007EE95B /* Actions.sks */; };
@@ -49,6 +50,7 @@
 		45278D0321C92114007EE95B /* zombie3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE921C92113007EE95B /* zombie3.png */; };
 		45278D0421C92114007EE95B /* zombie4.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CEA21C92113007EE95B /* zombie4.png */; };
 		45278D0621C93A65007EE95B /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45278D0521C93A65007EE95B /* MyUtils.swift */; };
+		452DC4DE21CAA20800A371D3 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452DC4DD21CAA20800A371D3 /* MainMenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,7 @@
 		4517492021C9FF79002FC42A /* hitCatLady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCatLady.wav; sourceTree = "<group>"; };
 		4517492121C9FF79002FC42A /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
 		4517492221C9FF79002FC42A /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		452505FE21CA808E00EE96AA /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		45278C9021C91F79007EE95B /* zombieKonga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zombieKonga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45278C9321C91F79007EE95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45278C9521C91F79007EE95B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -117,6 +120,7 @@
 		45278CE921C92113007EE95B /* zombie3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie3.png; sourceTree = "<group>"; };
 		45278CEA21C92113007EE95B /* zombie4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie4.png; sourceTree = "<group>"; };
 		45278D0521C93A65007EE95B /* MyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
+		452DC4DD21CAA20800A371D3 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +191,8 @@
 				45278C9521C91F79007EE95B /* GameScene.sks */,
 				45278C9721C91F79007EE95B /* Actions.sks */,
 				45278C9921C91F79007EE95B /* GameScene.swift */,
+				452DC4DD21CAA20800A371D3 /* MainMenuScene.swift */,
+				452505FE21CA808E00EE96AA /* GameOverScene.swift */,
 				45278C9B21C91F79007EE95B /* GameViewController.swift */,
 				45278C9D21C91F79007EE95B /* Main.storyboard */,
 				45278CA021C91F79007EE95B /* Assets.xcassets */,
@@ -421,6 +427,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452DC4DE21CAA20800A371D3 /* MainMenuScene.swift in Sources */,
+				452505FF21CA808E00EE96AA /* GameOverScene.swift in Sources */,
 				45278C9A21C91F79007EE95B /* GameScene.swift in Sources */,
 				45278C9C21C91F79007EE95B /* GameViewController.swift in Sources */,
 				45278C9421C91F79007EE95B /* AppDelegate.swift in Sources */,
