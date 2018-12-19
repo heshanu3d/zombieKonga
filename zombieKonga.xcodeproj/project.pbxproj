@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4517492321C9FF7A002FC42A /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4517491E21C9FF79002FC42A /* backgroundMusic.mp3 */; };
+		4517492421C9FF7A002FC42A /* hitCat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517491F21C9FF79002FC42A /* hitCat.wav */; };
+		4517492521C9FF7A002FC42A /* hitCatLady.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517492021C9FF79002FC42A /* hitCatLady.wav */; };
+		4517492621C9FF7A002FC42A /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517492121C9FF79002FC42A /* lose.wav */; };
+		4517492721C9FF7A002FC42A /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517492221C9FF79002FC42A /* win.wav */; };
 		45278C9421C91F79007EE95B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45278C9321C91F79007EE95B /* AppDelegate.swift */; };
 		45278C9621C91F79007EE95B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45278C9521C91F79007EE95B /* GameScene.sks */; };
 		45278C9821C91F79007EE95B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 45278C9721C91F79007EE95B /* Actions.sks */; };
@@ -64,6 +69,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4517491E21C9FF79002FC42A /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		4517491F21C9FF79002FC42A /* hitCat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCat.wav; sourceTree = "<group>"; };
+		4517492021C9FF79002FC42A /* hitCatLady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCatLady.wav; sourceTree = "<group>"; };
+		4517492121C9FF79002FC42A /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		4517492221C9FF79002FC42A /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		45278C9021C91F79007EE95B /* zombieKonga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zombieKonga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45278C9321C91F79007EE95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45278C9521C91F79007EE95B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -134,9 +144,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4517491D21C9FF79002FC42A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4517491E21C9FF79002FC42A /* backgroundMusic.mp3 */,
+				4517491F21C9FF79002FC42A /* hitCat.wav */,
+				4517492021C9FF79002FC42A /* hitCatLady.wav */,
+				4517492121C9FF79002FC42A /* lose.wav */,
+				4517492221C9FF79002FC42A /* win.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		45278C8721C91F79007EE95B = {
 			isa = PBXGroup;
 			children = (
+				4517491D21C9FF79002FC42A /* Sounds */,
 				45278CCF21C92113007EE95B /* icons */,
 				45278CDF21C92113007EE95B /* images */,
 				45278C9221C91F79007EE95B /* zombieKonga */,
@@ -347,6 +370,8 @@
 				45278CEF21C92114007EE95B /* Icon29.png in Resources */,
 				45278CEB21C92114007EE95B /* Icon1024@1x.png in Resources */,
 				45278D0321C92114007EE95B /* zombie3.png in Resources */,
+				4517492421C9FF7A002FC42A /* hitCat.wav in Resources */,
+				4517492621C9FF7A002FC42A /* lose.wav in Resources */,
 				45278CF421C92114007EE95B /* Icon40@3x.png in Resources */,
 				45278CA421C91F79007EE95B /* LaunchScreen.storyboard in Resources */,
 				45278CF921C92114007EE95B /* Icon83.5@2x.png in Resources */,
@@ -356,6 +381,7 @@
 				45278CF521C92114007EE95B /* Icon60@2x.png in Resources */,
 				45278CFE21C92114007EE95B /* MainMenu.png in Resources */,
 				45278C9821C91F79007EE95B /* Actions.sks in Resources */,
+				4517492321C9FF7A002FC42A /* backgroundMusic.mp3 in Resources */,
 				45278CFB21C92114007EE95B /* background2.png in Resources */,
 				45278CF821C92114007EE95B /* Icon76@2x.png in Resources */,
 				45278CF321C92114007EE95B /* Icon40@2x.png in Resources */,
@@ -368,7 +394,9 @@
 				45278CFA21C92114007EE95B /* background1.png in Resources */,
 				45278D0021C92114007EE95B /* YouWin.png in Resources */,
 				45278CFC21C92114007EE95B /* cat.png in Resources */,
+				4517492721C9FF7A002FC42A /* win.wav in Resources */,
 				45278CF721C92114007EE95B /* Icon76.png in Resources */,
+				4517492521C9FF7A002FC42A /* hitCatLady.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
