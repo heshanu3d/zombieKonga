@@ -370,6 +370,7 @@ class GameScene: SKScene
             gameOver = true
 //            self.removeAllActions()
 //            self.removeAction(forKey: "backgroundMusic")
+            backgroundMusicPlayer.stop()
             let gameOverScene = GameOverScene(size: size, won: true)
             gameOverScene.scaleMode = scaleMode
             let reveal = SKTransition.flipHorizontal(withDuration: 0.5)
@@ -439,7 +440,8 @@ class GameScene: SKScene
                     y: background.position.y) }
         })
     }
-    
+
+    #if os(iOS)
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
     {
         let touch = touches.first
@@ -450,7 +452,15 @@ class GameScene: SKScene
         }
         
     }
+    #else
+    override func mouseDown(with event: NSEvent) {
+        let touchLocation = event.location(in: backgroundLayer)
+        lastTouchPosition = touchLocation
+        moveZombieToward(sprite: zombie, location: touchLocation)
+    }
+    #endif
     
+    #if os(iOS)
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?)
     {
         let touch = touches.first
@@ -461,7 +471,15 @@ class GameScene: SKScene
         }
         
     }
+    #else
+    override func mouseDragged(with event: NSEvent) {
+        let touchLocation = event.location(in: backgroundLayer)
+        lastTouchPosition = touchLocation
+        moveZombieToward(sprite: zombie, location: touchLocation)
+    }
+    #endif
     
+    #if os(iOS)
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?)
     {
         let touch = touches.first
@@ -470,7 +488,15 @@ class GameScene: SKScene
             lastTouchPosition = touch!.location(in: backgroundLayer)
         }
     }
+    #else
+    override func mouseUp(with event: NSEvent) {
+        let touchLocation = event.location(in: backgroundLayer)
+        lastTouchPosition = touchLocation
+        moveZombieToward(sprite: zombie, location: touchLocation)
+    }
+    #endif
     
+    #if os(iOS)
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?)
     {
         let touch = touches.first
@@ -479,6 +505,7 @@ class GameScene: SKScene
             lastTouchPosition = touch!.location(in: backgroundLayer)
         }
     }
+    #endif
     
     override func update(_ currentTime: TimeInterval)
     {
@@ -501,6 +528,7 @@ class GameScene: SKScene
 //            print("You lose!")
 //            self.removeAllActions()
 //            self.removeAction(forKey: "backgroundMusic")
+            backgroundMusicPlayer.stop()
             let gameOverScene = GameOverScene(size: size, won: false)
             gameOverScene.scaleMode = scaleMode
             let reveal = SKTransition.flipHorizontal(withDuration: 0.5)

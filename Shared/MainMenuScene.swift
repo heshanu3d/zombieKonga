@@ -61,13 +61,21 @@ class MainMenuScene: SKScene {
 
         label.run(blinkAction)
     }
-    
+    #if os(iOS)
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         let scene = GameScene(size: size)
         let transion = SKTransition.doorway(withDuration: 1.5)
         scene.scaleMode = scaleMode
         view?.presentScene(scene, transition: transion)
     }
+    #else
+    override func mouseDown(with event: NSEvent) {
+        let scene = GameScene(size: size)
+        let transion = SKTransition.doorway(withDuration: 1.5)
+        scene.scaleMode = scaleMode
+        view?.presentScene(scene, transition: transion)
+    }
+    #endif
     
     override func update(_ currentTime: TimeInterval) {
         debugLayer.position += CGPoint(x: 1, y: 0)

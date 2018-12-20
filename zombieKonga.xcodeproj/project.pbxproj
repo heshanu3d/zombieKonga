@@ -50,7 +50,70 @@
 		45278D0321C92114007EE95B /* zombie3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE921C92113007EE95B /* zombie3.png */; };
 		45278D0421C92114007EE95B /* zombie4.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CEA21C92113007EE95B /* zombie4.png */; };
 		45278D0621C93A65007EE95B /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45278D0521C93A65007EE95B /* MyUtils.swift */; };
+		452B63C021CB610400C3AE45 /* 16ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63BC21CB610300C3AE45 /* 16ptx2.png */; };
+		452B63C121CB610400C3AE45 /* 32ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63BD21CB610400C3AE45 /* 32ptx2.png */; };
+		452B63C221CB610400C3AE45 /* 16pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63BE21CB610400C3AE45 /* 16pt.png */; };
+		452B63C321CB610400C3AE45 /* 32pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63BF21CB610400C3AE45 /* 32pt.png */; };
+		452B63C421CB610800C3AE45 /* 16pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63BE21CB610400C3AE45 /* 16pt.png */; };
+		452B63C521CB610800C3AE45 /* 16ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63BC21CB610300C3AE45 /* 16ptx2.png */; };
+		452B63C621CB610800C3AE45 /* 32pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63BF21CB610400C3AE45 /* 32pt.png */; };
+		452B63C721CB610800C3AE45 /* 32ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63BD21CB610400C3AE45 /* 32ptx2.png */; };
+		452B63CD21CB617100C3AE45 /* 256ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63C821CB617000C3AE45 /* 256ptx2.png */; };
+		452B63CE21CB617100C3AE45 /* 128ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63C921CB617000C3AE45 /* 128ptx2.png */; };
+		452B63CF21CB617100C3AE45 /* 256pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63CA21CB617000C3AE45 /* 256pt.png */; };
+		452B63D021CB617100C3AE45 /* 128pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63CB21CB617100C3AE45 /* 128pt.png */; };
+		452B63D121CB617100C3AE45 /* 512pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63CC21CB617100C3AE45 /* 512pt.png */; };
+		452B63D221CB617900C3AE45 /* 128pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63CB21CB617100C3AE45 /* 128pt.png */; };
+		452B63D321CB617900C3AE45 /* 128ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63C921CB617000C3AE45 /* 128ptx2.png */; };
+		452B63D421CB617900C3AE45 /* 256pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63CA21CB617000C3AE45 /* 256pt.png */; };
+		452B63D521CB617900C3AE45 /* 256ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63C821CB617000C3AE45 /* 256ptx2.png */; };
+		452B63D621CB617900C3AE45 /* 512pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63CC21CB617100C3AE45 /* 512pt.png */; };
+		452B63D821CB61A200C3AE45 /* 512ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63D721CB61A100C3AE45 /* 512ptx2.png */; };
+		452B63D921CB61A200C3AE45 /* 512ptx2.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B63D721CB61A100C3AE45 /* 512ptx2.png */; };
 		452DC4DE21CAA20800A371D3 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452DC4DD21CAA20800A371D3 /* MainMenuScene.swift */; };
+		452EDF9121CB4AD400C6A247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDF9021CB4AD400C6A247 /* AppDelegate.swift */; };
+		452EDF9321CB4AD400C6A247 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 452EDF9221CB4AD400C6A247 /* GameScene.sks */; };
+		452EDF9521CB4AD400C6A247 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 452EDF9421CB4AD400C6A247 /* Actions.sks */; };
+		452EDF9921CB4AD400C6A247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDF9821CB4AD400C6A247 /* ViewController.swift */; };
+		452EDF9E21CB4AD400C6A247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452EDF9C21CB4AD400C6A247 /* Main.storyboard */; };
+		452EDFAA21CB4AD400C6A247 /* zombieKongaMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDFA921CB4AD400C6A247 /* zombieKongaMacTests.swift */; };
+		452EDFB521CB4AD400C6A247 /* zombieKongaMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDFB421CB4AD400C6A247 /* zombieKongaMacUITests.swift */; };
+		452EDFC121CB4EE100C6A247 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4517491E21C9FF79002FC42A /* backgroundMusic.mp3 */; };
+		452EDFC221CB4EE100C6A247 /* hitCat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517491F21C9FF79002FC42A /* hitCat.wav */; };
+		452EDFC321CB4EE100C6A247 /* hitCatLady.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517492021C9FF79002FC42A /* hitCatLady.wav */; };
+		452EDFC421CB4EE100C6A247 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517492121C9FF79002FC42A /* lose.wav */; };
+		452EDFC521CB4EE100C6A247 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4517492221C9FF79002FC42A /* win.wav */; };
+		452EDFC621CB4EE100C6A247 /* Icon1024@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD021C92113007EE95B /* Icon1024@1x.png */; };
+		452EDFC721CB4EE100C6A247 /* Icon20.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD121C92113007EE95B /* Icon20.png */; };
+		452EDFC821CB4EE100C6A247 /* Icon20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD221C92113007EE95B /* Icon20@2x.png */; };
+		452EDFC921CB4EE100C6A247 /* Icon20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD321C92113007EE95B /* Icon20@3x.png */; };
+		452EDFCA21CB4EE100C6A247 /* Icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD421C92113007EE95B /* Icon29.png */; };
+		452EDFCB21CB4EE100C6A247 /* Icon29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD521C92113007EE95B /* Icon29@2x.png */; };
+		452EDFCC21CB4EE100C6A247 /* Icon29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD621C92113007EE95B /* Icon29@3x.png */; };
+		452EDFCD21CB4EE100C6A247 /* Icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD721C92113007EE95B /* Icon40.png */; };
+		452EDFCE21CB4EE100C6A247 /* Icon40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD821C92113007EE95B /* Icon40@2x.png */; };
+		452EDFCF21CB4EE100C6A247 /* Icon40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CD921C92113007EE95B /* Icon40@3x.png */; };
+		452EDFD021CB4EE100C6A247 /* Icon60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CDA21C92113007EE95B /* Icon60@2x.png */; };
+		452EDFD121CB4EE100C6A247 /* Icon60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CDB21C92113007EE95B /* Icon60@3x.png */; };
+		452EDFD221CB4EE100C6A247 /* Icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CDC21C92113007EE95B /* Icon76.png */; };
+		452EDFD321CB4EE100C6A247 /* Icon76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CDD21C92113007EE95B /* Icon76@2x.png */; };
+		452EDFD421CB4EE100C6A247 /* Icon83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CDE21C92113007EE95B /* Icon83.5@2x.png */; };
+		452EDFD521CB4EE100C6A247 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE021C92113007EE95B /* background1.png */; };
+		452EDFD621CB4EE100C6A247 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE121C92113007EE95B /* background2.png */; };
+		452EDFD721CB4EE100C6A247 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE221C92113007EE95B /* cat.png */; };
+		452EDFD821CB4EE100C6A247 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE321C92113007EE95B /* enemy.png */; };
+		452EDFD921CB4EE100C6A247 /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE421C92113007EE95B /* MainMenu.png */; };
+		452EDFDA21CB4EE100C6A247 /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE521C92113007EE95B /* YouLose.png */; };
+		452EDFDB21CB4EE100C6A247 /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE621C92113007EE95B /* YouWin.png */; };
+		452EDFDC21CB4EE100C6A247 /* zombie1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE721C92113007EE95B /* zombie1.png */; };
+		452EDFDD21CB4EE100C6A247 /* zombie2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE821C92113007EE95B /* zombie2.png */; };
+		452EDFDE21CB4EE100C6A247 /* zombie3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CE921C92113007EE95B /* zombie3.png */; };
+		452EDFDF21CB4EE100C6A247 /* zombie4.png in Resources */ = {isa = PBXBuildFile; fileRef = 45278CEA21C92113007EE95B /* zombie4.png */; };
+		452EDFE021CB4EE100C6A247 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45278D0521C93A65007EE95B /* MyUtils.swift */; };
+		452EDFE121CB4EE100C6A247 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45278C9921C91F79007EE95B /* GameScene.swift */; };
+		452EDFE221CB4EE100C6A247 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452DC4DD21CAA20800A371D3 /* MainMenuScene.swift */; };
+		452EDFE321CB4EE100C6A247 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452505FE21CA808E00EE96AA /* GameOverScene.swift */; };
+		452EDFE421CB4EE100C6A247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45278CA021C91F79007EE95B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +130,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 45278C8F21C91F79007EE95B;
 			remoteInfo = zombieKonga;
+		};
+		452EDFA621CB4AD400C6A247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45278C8821C91F79007EE95B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 452EDF8D21CB4AD400C6A247;
+			remoteInfo = zombieKongaMac;
+		};
+		452EDFB121CB4AD400C6A247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45278C8821C91F79007EE95B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 452EDF8D21CB4AD400C6A247;
+			remoteInfo = zombieKongaMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -120,7 +197,31 @@
 		45278CE921C92113007EE95B /* zombie3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie3.png; sourceTree = "<group>"; };
 		45278CEA21C92113007EE95B /* zombie4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombie4.png; sourceTree = "<group>"; };
 		45278D0521C93A65007EE95B /* MyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
+		452B63BC21CB610300C3AE45 /* 16ptx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16ptx2.png; sourceTree = "<group>"; };
+		452B63BD21CB610400C3AE45 /* 32ptx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32ptx2.png; sourceTree = "<group>"; };
+		452B63BE21CB610400C3AE45 /* 16pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16pt.png; sourceTree = "<group>"; };
+		452B63BF21CB610400C3AE45 /* 32pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32pt.png; sourceTree = "<group>"; };
+		452B63C821CB617000C3AE45 /* 256ptx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 256ptx2.png; sourceTree = "<group>"; };
+		452B63C921CB617000C3AE45 /* 128ptx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128ptx2.png; sourceTree = "<group>"; };
+		452B63CA21CB617000C3AE45 /* 256pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 256pt.png; sourceTree = "<group>"; };
+		452B63CB21CB617100C3AE45 /* 128pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128pt.png; sourceTree = "<group>"; };
+		452B63CC21CB617100C3AE45 /* 512pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512pt.png; sourceTree = "<group>"; };
+		452B63D721CB61A100C3AE45 /* 512ptx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512ptx2.png; sourceTree = "<group>"; };
 		452DC4DD21CAA20800A371D3 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		452EDF8E21CB4AD400C6A247 /* zombieKonga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zombieKonga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		452EDF9021CB4AD400C6A247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		452EDF9221CB4AD400C6A247 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		452EDF9421CB4AD400C6A247 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		452EDF9821CB4AD400C6A247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		452EDF9D21CB4AD400C6A247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		452EDF9F21CB4AD400C6A247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452EDFA021CB4AD400C6A247 /* zombieKongaMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zombieKongaMac.entitlements; sourceTree = "<group>"; };
+		452EDFA521CB4AD400C6A247 /* zombieKongaMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zombieKongaMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		452EDFA921CB4AD400C6A247 /* zombieKongaMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zombieKongaMacTests.swift; sourceTree = "<group>"; };
+		452EDFAB21CB4AD400C6A247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452EDFB021CB4AD400C6A247 /* zombieKongaMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zombieKongaMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		452EDFB421CB4AD400C6A247 /* zombieKongaMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zombieKongaMacUITests.swift; sourceTree = "<group>"; };
+		452EDFB621CB4AD400C6A247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +246,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		452EDF8B21CB4AD400C6A247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452EDFA221CB4AD400C6A247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452EDFAD21CB4AD400C6A247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -163,12 +285,13 @@
 		45278C8721C91F79007EE95B = {
 			isa = PBXGroup;
 			children = (
-				4517491D21C9FF79002FC42A /* Sounds */,
-				45278CCF21C92113007EE95B /* icons */,
-				45278CDF21C92113007EE95B /* images */,
+				452EDFC021CB4D7300C6A247 /* Shared */,
 				45278C9221C91F79007EE95B /* zombieKonga */,
 				45278CAD21C91F7A007EE95B /* zombieKongaTests */,
 				45278CB821C91F7A007EE95B /* zombieKongaUITests */,
+				452EDF8F21CB4AD400C6A247 /* zombieKongaMac */,
+				452EDFA821CB4AD400C6A247 /* zombieKongaMacTests */,
+				452EDFB321CB4AD400C6A247 /* zombieKongaMacUITests */,
 				45278C9121C91F79007EE95B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,6 +302,9 @@
 				45278C9021C91F79007EE95B /* zombieKonga.app */,
 				45278CAA21C91F7A007EE95B /* zombieKongaTests.xctest */,
 				45278CB521C91F7A007EE95B /* zombieKongaUITests.xctest */,
+				452EDF8E21CB4AD400C6A247 /* zombieKonga.app */,
+				452EDFA521CB4AD400C6A247 /* zombieKongaMacTests.xctest */,
+				452EDFB021CB4AD400C6A247 /* zombieKongaMacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,16 +312,11 @@
 		45278C9221C91F79007EE95B /* zombieKonga */ = {
 			isa = PBXGroup;
 			children = (
-				45278D0521C93A65007EE95B /* MyUtils.swift */,
 				45278C9321C91F79007EE95B /* AppDelegate.swift */,
 				45278C9521C91F79007EE95B /* GameScene.sks */,
 				45278C9721C91F79007EE95B /* Actions.sks */,
-				45278C9921C91F79007EE95B /* GameScene.swift */,
-				452DC4DD21CAA20800A371D3 /* MainMenuScene.swift */,
-				452505FE21CA808E00EE96AA /* GameOverScene.swift */,
 				45278C9B21C91F79007EE95B /* GameViewController.swift */,
 				45278C9D21C91F79007EE95B /* Main.storyboard */,
-				45278CA021C91F79007EE95B /* Assets.xcassets */,
 				45278CA221C91F79007EE95B /* LaunchScreen.storyboard */,
 				45278CA521C91F79007EE95B /* Info.plist */,
 			);
@@ -223,6 +344,16 @@
 		45278CCF21C92113007EE95B /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				452B63D721CB61A100C3AE45 /* 512ptx2.png */,
+				452B63CB21CB617100C3AE45 /* 128pt.png */,
+				452B63C921CB617000C3AE45 /* 128ptx2.png */,
+				452B63CA21CB617000C3AE45 /* 256pt.png */,
+				452B63C821CB617000C3AE45 /* 256ptx2.png */,
+				452B63CC21CB617100C3AE45 /* 512pt.png */,
+				452B63BE21CB610400C3AE45 /* 16pt.png */,
+				452B63BC21CB610300C3AE45 /* 16ptx2.png */,
+				452B63BF21CB610400C3AE45 /* 32pt.png */,
+				452B63BD21CB610400C3AE45 /* 32ptx2.png */,
 				45278CD021C92113007EE95B /* Icon1024@1x.png */,
 				45278CD121C92113007EE95B /* Icon20.png */,
 				45278CD221C92113007EE95B /* Icon20@2x.png */,
@@ -258,6 +389,53 @@
 				45278CEA21C92113007EE95B /* zombie4.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		452EDF8F21CB4AD400C6A247 /* zombieKongaMac */ = {
+			isa = PBXGroup;
+			children = (
+				452EDF9021CB4AD400C6A247 /* AppDelegate.swift */,
+				452EDF9221CB4AD400C6A247 /* GameScene.sks */,
+				452EDF9421CB4AD400C6A247 /* Actions.sks */,
+				452EDF9821CB4AD400C6A247 /* ViewController.swift */,
+				452EDF9C21CB4AD400C6A247 /* Main.storyboard */,
+				452EDF9F21CB4AD400C6A247 /* Info.plist */,
+				452EDFA021CB4AD400C6A247 /* zombieKongaMac.entitlements */,
+			);
+			path = zombieKongaMac;
+			sourceTree = "<group>";
+		};
+		452EDFA821CB4AD400C6A247 /* zombieKongaMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				452EDFA921CB4AD400C6A247 /* zombieKongaMacTests.swift */,
+				452EDFAB21CB4AD400C6A247 /* Info.plist */,
+			);
+			path = zombieKongaMacTests;
+			sourceTree = "<group>";
+		};
+		452EDFB321CB4AD400C6A247 /* zombieKongaMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				452EDFB421CB4AD400C6A247 /* zombieKongaMacUITests.swift */,
+				452EDFB621CB4AD400C6A247 /* Info.plist */,
+			);
+			path = zombieKongaMacUITests;
+			sourceTree = "<group>";
+		};
+		452EDFC021CB4D7300C6A247 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4517491D21C9FF79002FC42A /* Sounds */,
+				45278CCF21C92113007EE95B /* icons */,
+				45278CDF21C92113007EE95B /* images */,
+				45278D0521C93A65007EE95B /* MyUtils.swift */,
+				45278C9921C91F79007EE95B /* GameScene.swift */,
+				452DC4DD21CAA20800A371D3 /* MainMenuScene.swift */,
+				452505FE21CA808E00EE96AA /* GameOverScene.swift */,
+				45278CA021C91F79007EE95B /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +494,59 @@
 			productReference = 45278CB521C91F7A007EE95B /* zombieKongaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		452EDF8D21CB4AD400C6A247 /* zombieKongaMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452EDFBD21CB4AD400C6A247 /* Build configuration list for PBXNativeTarget "zombieKongaMac" */;
+			buildPhases = (
+				452EDF8A21CB4AD400C6A247 /* Sources */,
+				452EDF8B21CB4AD400C6A247 /* Frameworks */,
+				452EDF8C21CB4AD400C6A247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zombieKongaMac;
+			productName = zombieKongaMac;
+			productReference = 452EDF8E21CB4AD400C6A247 /* zombieKonga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		452EDFA421CB4AD400C6A247 /* zombieKongaMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452EDFBE21CB4AD400C6A247 /* Build configuration list for PBXNativeTarget "zombieKongaMacTests" */;
+			buildPhases = (
+				452EDFA121CB4AD400C6A247 /* Sources */,
+				452EDFA221CB4AD400C6A247 /* Frameworks */,
+				452EDFA321CB4AD400C6A247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				452EDFA721CB4AD400C6A247 /* PBXTargetDependency */,
+			);
+			name = zombieKongaMacTests;
+			productName = zombieKongaMacTests;
+			productReference = 452EDFA521CB4AD400C6A247 /* zombieKongaMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		452EDFAF21CB4AD400C6A247 /* zombieKongaMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452EDFBF21CB4AD400C6A247 /* Build configuration list for PBXNativeTarget "zombieKongaMacUITests" */;
+			buildPhases = (
+				452EDFAC21CB4AD400C6A247 /* Sources */,
+				452EDFAD21CB4AD400C6A247 /* Frameworks */,
+				452EDFAE21CB4AD400C6A247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				452EDFB221CB4AD400C6A247 /* PBXTargetDependency */,
+			);
+			name = zombieKongaMacUITests;
+			productName = zombieKongaMacUITests;
+			productReference = 452EDFB021CB4AD400C6A247 /* zombieKongaMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -340,6 +571,20 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 45278C8F21C91F79007EE95B;
 					};
+					452EDF8D21CB4AD400C6A247 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					452EDFA421CB4AD400C6A247 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 452EDF8D21CB4AD400C6A247;
+					};
+					452EDFAF21CB4AD400C6A247 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 452EDF8D21CB4AD400C6A247;
+					};
 				};
 			};
 			buildConfigurationList = 45278C8B21C91F79007EE95B /* Build configuration list for PBXProject "zombieKonga" */;
@@ -358,6 +603,9 @@
 				45278C8F21C91F79007EE95B /* zombieKonga */,
 				45278CA921C91F79007EE95B /* zombieKongaTests */,
 				45278CB421C91F7A007EE95B /* zombieKongaUITests */,
+				452EDF8D21CB4AD400C6A247 /* zombieKongaMac */,
+				452EDFA421CB4AD400C6A247 /* zombieKongaMacTests */,
+				452EDFAF21CB4AD400C6A247 /* zombieKongaMacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -371,18 +619,25 @@
 				45278C9621C91F79007EE95B /* GameScene.sks in Resources */,
 				45278D0421C92114007EE95B /* zombie4.png in Resources */,
 				45278CFF21C92114007EE95B /* YouLose.png in Resources */,
+				452B63D821CB61A200C3AE45 /* 512ptx2.png in Resources */,
+				452B63C121CB610400C3AE45 /* 32ptx2.png in Resources */,
 				45278CFD21C92114007EE95B /* enemy.png in Resources */,
 				45278CA121C91F79007EE95B /* Assets.xcassets in Resources */,
+				452B63D121CB617100C3AE45 /* 512pt.png in Resources */,
+				452B63D021CB617100C3AE45 /* 128pt.png in Resources */,
 				45278CEF21C92114007EE95B /* Icon29.png in Resources */,
 				45278CEB21C92114007EE95B /* Icon1024@1x.png in Resources */,
 				45278D0321C92114007EE95B /* zombie3.png in Resources */,
 				4517492421C9FF7A002FC42A /* hitCat.wav in Resources */,
 				4517492621C9FF7A002FC42A /* lose.wav in Resources */,
+				452B63C321CB610400C3AE45 /* 32pt.png in Resources */,
 				45278CF421C92114007EE95B /* Icon40@3x.png in Resources */,
 				45278CA421C91F79007EE95B /* LaunchScreen.storyboard in Resources */,
 				45278CF921C92114007EE95B /* Icon83.5@2x.png in Resources */,
+				452B63C221CB610400C3AE45 /* 16pt.png in Resources */,
 				45278D0221C92114007EE95B /* zombie2.png in Resources */,
 				45278CED21C92114007EE95B /* Icon20@2x.png in Resources */,
+				452B63C021CB610400C3AE45 /* 16ptx2.png in Resources */,
 				45278CF121C92114007EE95B /* Icon29@3x.png in Resources */,
 				45278CF521C92114007EE95B /* Icon60@2x.png in Resources */,
 				45278CFE21C92114007EE95B /* MainMenu.png in Resources */,
@@ -396,6 +651,7 @@
 				45278CEC21C92114007EE95B /* Icon20.png in Resources */,
 				45278D0121C92114007EE95B /* zombie1.png in Resources */,
 				45278CF021C92114007EE95B /* Icon29@2x.png in Resources */,
+				452B63CD21CB617100C3AE45 /* 256ptx2.png in Resources */,
 				45278CEE21C92114007EE95B /* Icon20@3x.png in Resources */,
 				45278CFA21C92114007EE95B /* background1.png in Resources */,
 				45278D0021C92114007EE95B /* YouWin.png in Resources */,
@@ -403,6 +659,8 @@
 				4517492721C9FF7A002FC42A /* win.wav in Resources */,
 				45278CF721C92114007EE95B /* Icon76.png in Resources */,
 				4517492521C9FF7A002FC42A /* hitCatLady.wav in Resources */,
+				452B63CE21CB617100C3AE45 /* 128ptx2.png in Resources */,
+				452B63CF21CB617100C3AE45 /* 256pt.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +672,72 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		45278CB321C91F7A007EE95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452EDF8C21CB4AD400C6A247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452EDFD321CB4EE100C6A247 /* Icon76@2x.png in Resources */,
+				452EDF9321CB4AD400C6A247 /* GameScene.sks in Resources */,
+				452EDFD821CB4EE100C6A247 /* enemy.png in Resources */,
+				452EDFDE21CB4EE100C6A247 /* zombie3.png in Resources */,
+				452EDF9521CB4AD400C6A247 /* Actions.sks in Resources */,
+				452EDFC621CB4EE100C6A247 /* Icon1024@1x.png in Resources */,
+				452EDFC221CB4EE100C6A247 /* hitCat.wav in Resources */,
+				452EDFC821CB4EE100C6A247 /* Icon20@2x.png in Resources */,
+				452EDFC921CB4EE100C6A247 /* Icon20@3x.png in Resources */,
+				452EDFD221CB4EE100C6A247 /* Icon76.png in Resources */,
+				452B63D321CB617900C3AE45 /* 128ptx2.png in Resources */,
+				452B63C621CB610800C3AE45 /* 32pt.png in Resources */,
+				452EDFCB21CB4EE100C6A247 /* Icon29@2x.png in Resources */,
+				452EDFC721CB4EE100C6A247 /* Icon20.png in Resources */,
+				452EDFC121CB4EE100C6A247 /* backgroundMusic.mp3 in Resources */,
+				452EDFD621CB4EE100C6A247 /* background2.png in Resources */,
+				452EDFDA21CB4EE100C6A247 /* YouLose.png in Resources */,
+				452EDFDF21CB4EE100C6A247 /* zombie4.png in Resources */,
+				452B63C521CB610800C3AE45 /* 16ptx2.png in Resources */,
+				452B63D421CB617900C3AE45 /* 256pt.png in Resources */,
+				452B63D621CB617900C3AE45 /* 512pt.png in Resources */,
+				452EDFCD21CB4EE100C6A247 /* Icon40.png in Resources */,
+				452EDFC321CB4EE100C6A247 /* hitCatLady.wav in Resources */,
+				452B63C421CB610800C3AE45 /* 16pt.png in Resources */,
+				452EDFC521CB4EE100C6A247 /* win.wav in Resources */,
+				452EDFD921CB4EE100C6A247 /* MainMenu.png in Resources */,
+				452EDFD021CB4EE100C6A247 /* Icon60@2x.png in Resources */,
+				452EDFCA21CB4EE100C6A247 /* Icon29.png in Resources */,
+				452EDFDC21CB4EE100C6A247 /* zombie1.png in Resources */,
+				452EDFDD21CB4EE100C6A247 /* zombie2.png in Resources */,
+				452EDFD721CB4EE100C6A247 /* cat.png in Resources */,
+				452EDF9E21CB4AD400C6A247 /* Main.storyboard in Resources */,
+				452EDFC421CB4EE100C6A247 /* lose.wav in Resources */,
+				452EDFD421CB4EE100C6A247 /* Icon83.5@2x.png in Resources */,
+				452EDFCC21CB4EE100C6A247 /* Icon29@3x.png in Resources */,
+				452EDFCF21CB4EE100C6A247 /* Icon40@3x.png in Resources */,
+				452EDFD121CB4EE100C6A247 /* Icon60@3x.png in Resources */,
+				452B63D521CB617900C3AE45 /* 256ptx2.png in Resources */,
+				452B63C721CB610800C3AE45 /* 32ptx2.png in Resources */,
+				452B63D221CB617900C3AE45 /* 128pt.png in Resources */,
+				452EDFD521CB4EE100C6A247 /* background1.png in Resources */,
+				452B63D921CB61A200C3AE45 /* 512ptx2.png in Resources */,
+				452EDFCE21CB4EE100C6A247 /* Icon40@2x.png in Resources */,
+				452EDFE421CB4EE100C6A247 /* Assets.xcassets in Resources */,
+				452EDFDB21CB4EE100C6A247 /* YouWin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452EDFA321CB4AD400C6A247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452EDFAE21CB4AD400C6A247 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,6 +776,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		452EDF8A21CB4AD400C6A247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452EDFE221CB4EE100C6A247 /* MainMenuScene.swift in Sources */,
+				452EDFE121CB4EE100C6A247 /* GameScene.swift in Sources */,
+				452EDFE321CB4EE100C6A247 /* GameOverScene.swift in Sources */,
+				452EDF9921CB4AD400C6A247 /* ViewController.swift in Sources */,
+				452EDF9121CB4AD400C6A247 /* AppDelegate.swift in Sources */,
+				452EDFE021CB4EE100C6A247 /* MyUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452EDFA121CB4AD400C6A247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452EDFAA21CB4AD400C6A247 /* zombieKongaMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452EDFAC21CB4AD400C6A247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452EDFB521CB4AD400C6A247 /* zombieKongaMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -464,6 +817,16 @@
 			isa = PBXTargetDependency;
 			target = 45278C8F21C91F79007EE95B /* zombieKonga */;
 			targetProxy = 45278CB621C91F7A007EE95B /* PBXContainerItemProxy */;
+		};
+		452EDFA721CB4AD400C6A247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 452EDF8D21CB4AD400C6A247 /* zombieKongaMac */;
+			targetProxy = 452EDFA621CB4AD400C6A247 /* PBXContainerItemProxy */;
+		};
+		452EDFB221CB4AD400C6A247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 452EDF8D21CB4AD400C6A247 /* zombieKongaMac */;
+			targetProxy = 452EDFB121CB4AD400C6A247 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -482,6 +845,14 @@
 				45278CA321C91F79007EE95B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		452EDF9C21CB4AD400C6A247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452EDF9D21CB4AD400C6A247 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -690,6 +1061,122 @@
 			};
 			name = Release;
 		};
+		452EDFB721CB4AD400C6A247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zombieKongaMac/zombieKongaMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3M223CXMJ3;
+				INFOPLIST_FILE = zombieKongaMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.zombieKonga;
+				PRODUCT_NAME = zombieKonga;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		452EDFB821CB4AD400C6A247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zombieKongaMac/zombieKongaMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3M223CXMJ3;
+				INFOPLIST_FILE = zombieKongaMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.zombieKonga;
+				PRODUCT_NAME = zombieKonga;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		452EDFB921CB4AD400C6A247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3M223CXMJ3;
+				INFOPLIST_FILE = zombieKongaMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.zombieKongaMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zombieKongaMac.app/Contents/MacOS/zombieKongaMac";
+			};
+			name = Debug;
+		};
+		452EDFBA21CB4AD400C6A247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3M223CXMJ3;
+				INFOPLIST_FILE = zombieKongaMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.zombieKongaMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zombieKongaMac.app/Contents/MacOS/zombieKongaMac";
+			};
+			name = Release;
+		};
+		452EDFBB21CB4AD400C6A247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3M223CXMJ3;
+				INFOPLIST_FILE = zombieKongaMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.zombieKongaMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = zombieKongaMac;
+			};
+			name = Debug;
+		};
+		452EDFBC21CB4AD400C6A247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3M223CXMJ3;
+				INFOPLIST_FILE = zombieKongaMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.zombieKongaMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = zombieKongaMac;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -725,6 +1212,33 @@
 			buildConfigurations = (
 				45278CC521C91F7A007EE95B /* Debug */,
 				45278CC621C91F7A007EE95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452EDFBD21CB4AD400C6A247 /* Build configuration list for PBXNativeTarget "zombieKongaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452EDFB721CB4AD400C6A247 /* Debug */,
+				452EDFB821CB4AD400C6A247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452EDFBE21CB4AD400C6A247 /* Build configuration list for PBXNativeTarget "zombieKongaMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452EDFB921CB4AD400C6A247 /* Debug */,
+				452EDFBA21CB4AD400C6A247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452EDFBF21CB4AD400C6A247 /* Build configuration list for PBXNativeTarget "zombieKongaMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452EDFBB21CB4AD400C6A247 /* Debug */,
+				452EDFBC21CB4AD400C6A247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
