@@ -10,6 +10,9 @@ import Foundation
 import SpriteKit
 
 class MainMenuScene: SKScene {
+    let debugLayer = SKNode()
+    let label = SKLabelNode(fontNamed: "Chalkduster")
+    let labelInLayer = SKLabelNode(fontNamed: "Chalkduster")
     override init(size: CGSize) {
         
         super.init(size: size)
@@ -24,14 +27,29 @@ class MainMenuScene: SKScene {
         background.position = CGPoint(x: size.width / 2, y: size.height / 2)
         addChild(background)
         
-        let label = SKLabelNode(fontNamed: "Chalkduster")
+        
         label.fontSize = 100
         label.name = "welcomeLabel"
         label.text = "Tap Anywhere"
         label.position = CGPoint(x: size.width / 2, y: size.height / 3)
-//        let fadeAction = SKAction.fadeAlpha(by: 0, duration: 1)
-//        let waitAction = SKAction.wait(forDuration: 0.3)
+        label.zPosition = 1
         addChild(label)
+        
+        //debug for coordinate convert
+        debugLayer.zPosition = 0
+        
+        labelInLayer.fontSize = 100
+        labelInLayer.name = "Label in layer"
+        labelInLayer.text = "Label in the layer"
+        labelInLayer.position = CGPoint(x: size.width / 2, y: size.height / 3 * 2)
+        
+        debugLayer.addChild(labelInLayer)
+//        debugLayer.position = CGPoint(x: size.width / 2, y: size.height / 2)
+//        debugLayer.addChild(background)
+//        debugLayer.addChild(label)
+        addChild(debugLayer)
+        
+        
         
         let blinkTimes = 10.0
         let duration = 3.0
@@ -49,5 +67,11 @@ class MainMenuScene: SKScene {
         let transion = SKTransition.doorway(withDuration: 1.5)
         scene.scaleMode = scaleMode
         view?.presentScene(scene, transition: transion)
+    }
+    
+    override func update(_ currentTime: TimeInterval) {
+        debugLayer.position += CGPoint(x: 1, y: 0)
+//        print("label in scene:\(label.position)")
+//        print("label in layer:\(debugLayer.convert(labelInLayer.position, to: self))")
     }
 }

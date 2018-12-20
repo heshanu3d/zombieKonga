@@ -129,10 +129,11 @@ class GameScene: SKScene
     {
 //        let bottomLeft = CGPoint(x: 0, y: 0)
 //        let topRight = CGPoint(x: size.width, y: size.height)
+
         let bottomLeft = backgroundLayer.convert(CGPoint(x: 0,
-                                                         y: playableRect.minY), to: self)
+                                                         y: playableRect.minY), from: self)
         let topRight = backgroundLayer.convert(CGPoint(x: size.width,
-                                                       y: playableRect.maxY), to: self)
+                                                       y: playableRect.maxY), from: self)
 //        let spW2R = sprite.size.width / 2
 //        let spH2R = sprite.size.height / 2
         if zombie.position.x <= bottomLeft.x// + spW2R
@@ -207,7 +208,7 @@ class GameScene: SKScene
         enemy.name = "enemy"
 //        enemy.position = CGPoint(x: size.width + enemy.size.width/2, y: CGFloat.random(min: playableRect.minY + enemy.size.height / 2,
 //                                                                                       max: playableRect.maxY - enemy.size.height / 2))
-        enemy.position = CGPoint(x: size.width + enemy.size.width/2, y: size.height / 2)
+        enemy.position = backgroundLayer.convert(CGPoint(x: size.width + enemy.size.width/2, y: size.height / 2), from: self)
 //        addChild(enemy)
         backgroundLayer.addChild(enemy)
         
@@ -240,8 +241,12 @@ class GameScene: SKScene
         // 1
         let cat = SKSpriteNode(imageNamed: "cat")
         cat.name = "cat"
-        cat.position = CGPoint(x: CGFloat.random(min: playableRect.minX, max: playableRect.maxX),
-                               y: CGFloat.random(min: playableRect.minY, max: playableRect.maxY))
+        
+        let leftBottom = backgroundLayer.convert(CGPoint(x: playableRect.minX, y: playableRect.minY), from: self)
+        let rightTop = backgroundLayer.convert(CGPoint(x: playableRect.maxX, y: playableRect.maxY), from: self)
+        
+        cat.position = CGPoint(x: CGFloat.random(min: leftBottom.x, max: rightTop.x),
+                               y: CGFloat.random(min: leftBottom.y, max: rightTop.y))
         cat.setScale(0)
 //        addChild(cat)
         backgroundLayer.addChild(cat)
@@ -441,7 +446,7 @@ class GameScene: SKScene
         if(touch != nil)
         {
             lastTouchPosition = touch!.location(in: backgroundLayer)
-            moveZombieToward(sprite: zombie, location: touch!.location(in: self))
+            moveZombieToward(sprite: zombie, location: touch!.location(in: backgroundLayer))
         }
         
     }
@@ -452,7 +457,7 @@ class GameScene: SKScene
         if(touch != nil)
         {
             lastTouchPosition = touch!.location(in: backgroundLayer) + CGPoint(x: 5, y: 5)
-            moveZombieToward(sprite: zombie, location: touch!.location(in: self))
+            moveZombieToward(sprite: zombie, location: touch!.location(in: backgroundLayer))
         }
         
     }
